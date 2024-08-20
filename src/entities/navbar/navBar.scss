@@ -1,0 +1,103 @@
+@import "@/app/themes";
+@import "@/app/variables";
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: rgba($color: #000000, $alpha: 0.2) 0px 0px 20px;
+  background-color: rgba($color: #fff, $alpha: 0.5);
+  backdrop-filter: blur(12px);
+
+  &__search {
+    width: 100%;
+    background-color: #00000022;
+    border-radius: 9999px;
+    display: flex;
+    gap: 0.25rem;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 0.75rem;
+
+    &__field {
+      width: 100%;
+      color: $text;
+      outline: 2px solid transparent;
+      outline-offset: 2px;
+      background-color: transparent;
+      border-style: none;
+      &::placeholder {
+        color: rgba($color: #000000, $alpha: 0.5);
+        opacity: 1;
+      }
+
+      &::-ms-input-placeholder {
+        color: rgba($color: #000000, $alpha: 0.5);
+      }
+    }
+  }
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    @media screen and (min-width: 0px) {
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+    }
+    @media screen and (min-width: 600px) {
+      padding-left: 4rem;
+      padding-right: 4rem;
+    }
+    @media screen and (min-width: 980px) {
+      padding-left: 8rem;
+      padding-right: 8rem;
+    }
+  }
+
+  &__logo {
+    color: $text;
+    display: flex;
+    width: 100%;
+    font-size: 24px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  &__content {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+
+    align-items: center;
+    a {
+      color: $text;
+      text-decoration: none;
+      display: flex;
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+      gap: 0.25rem;
+      align-items: center;
+      @media screen and (min-width: 0px) {
+        span {
+          display: none;
+        }
+      }
+      @media screen and (min-width: 980px) {
+        span {
+          display: block;
+        }
+      }
+    }
+    @media screen and (min-width: 0px) {
+      gap: 0.25rem;
+    }
+    @media screen and (min-width: 600px) {
+      gap: 0.5rem;
+    }
+    @media screen and (min-width: 980px) {
+      gap: 1rem;
+    }
+  }
+}

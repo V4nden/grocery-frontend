@@ -1,0 +1,38 @@
+@import "themes";
+@import url("https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap");
+* {
+  font-family: "Moderustic", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color-scheme: light dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  color: $text;
+  background-color: $background;
+  top: 0px;
+  left: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+
+main {
+  margin-top: 4rem;
+  @media screen and (min-width: 0px) {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  @media screen and (min-width: 600px) {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  @media screen and (min-width: 980px) {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+}
