@@ -1,4 +1,4 @@
-import Store from "../widgets/store/ui/store";
+import Store from "./store";
 
 type Props = {};
 

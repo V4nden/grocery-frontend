@@ -1,8 +1,8 @@
-import { IItem } from "../../../app/types";
 type Props = { item: IItem; type: "large" | "card" };
+import { IItem } from "../model/types";
 import "./item.scss";
-import ItemCard from "./itemCard";
-import ItemLarge from "./itemLarge";
+import ItemCard from "../../../widgets/item/ui/itemCard";
+import ItemLarge from "../../../widgets/item/ui/itemLarge";
 
 const Item = (props: Props) => {
   switch (props.type) {

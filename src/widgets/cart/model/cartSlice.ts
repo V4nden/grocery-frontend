@@ -1,5 +1,5 @@
+import { IItem } from "@/entities/item/model/types";
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { IItem } from "../../types";
 
 interface State {
   cart: { [id: string]: { item: IItem; amount: number } };

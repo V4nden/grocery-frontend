@@ -1,5 +1,4 @@
 @import "@/app/themes";
-@import "@/app/variables";
 
 .navbar {
   position: fixed;
@@ -40,18 +39,17 @@
   &__wrapper {
     display: flex;
     justify-content: space-between;
-    padding: 0.5rem;
+    margin: auto;
+    max-width: 1600px;
+    padding: 0.5rem 0;
     @media screen and (min-width: 0px) {
-      padding-left: 0.5rem;
-      padding-right: 0.5rem;
+      width: 95%;
     }
     @media screen and (min-width: 600px) {
-      padding-left: 4rem;
-      padding-right: 4rem;
+      width: 85%;
     }
     @media screen and (min-width: 980px) {
-      padding-left: 8rem;
-      padding-right: 8rem;
+      width: 80%;
     }
   }
 

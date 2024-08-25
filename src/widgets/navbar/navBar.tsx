@@ -1,7 +1,7 @@
 import { FaHome, FaSearch, FaStore } from "react-icons/fa";
 import { FaLeaf, FaPeopleGroup } from "react-icons/fa6";
 import "./navBar.scss";
-import CartButton from "../../widgets/cart/ui/cartButton";
+import CartButton from "../cart/ui/cartButton";
 import { Link, useNavigate } from "react-router-dom";
 const NavBar = () => {
   const navigate = useNavigate();

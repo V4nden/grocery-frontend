@@ -1,6 +1,6 @@
-import { useAppDispatch, useAppSelector } from "../../../app/store";
-import Popup from "../../../shared/popup/popup";
-import { switchOpened } from "../../../app/store/slices/cartSlice";
+import { useAppDispatch, useAppSelector } from "../../../app/appStore";
+import Popup from "../../../shared/ui/popup/popup";
+import { switchOpened } from "../model/cartSlice";
 import Item from "../../../entities/item/ui/item";
 import "./cart.scss";
 

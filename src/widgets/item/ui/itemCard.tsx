@@ -1,8 +1,8 @@
 import React from "react";
-import { IItem } from "../../../app/types";
-import { useAppDispatch, useAppSelector } from "../../../app/store";
-import { addCartItem } from "../../../app/store/slices/cartSlice";
+import { useAppDispatch, useAppSelector } from "../../../app/appStore";
+import { addCartItem } from "../../cart/model/cartSlice";
 import { FaCartPlus, FaStar } from "react-icons/fa";
+import { IItem } from "../../../entities/item/model/types";
 
 type Props = { item: IItem };
 
@@ -15,7 +15,6 @@ const ItemCard = (props: Props) => {
   const rating = () => {
     const elements: React.ReactNode[] = [];
     for (let i = 1; i <= 5; i++) {
-      console.log(i);
       if (props.item.rating >= i) {
         elements.push(<FaStar fill="#ffaa00" />);
       } else {

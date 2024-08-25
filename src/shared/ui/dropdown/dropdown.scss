@@ -1,0 +1,21 @@
+@import "@/app/themes";
+
+.dropdown {
+  background-color: $primary;
+  color: white;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  font-weight: 800;
+  border-radius: 9999px;
+  border-style: none;
+  padding: 0.25rem 0.5rem;
+
+  > option {
+    font-weight: 800;
+    background-color: white;
+    color: $text;
+    border-radius: 9999px;
+    border-style: none;
+    padding: 0.25rem 0.5rem;
+  }
+}

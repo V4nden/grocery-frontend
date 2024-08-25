@@ -1,8 +1,7 @@
 import React from "react";
 import { FaShoppingBag } from "react-icons/fa";
-import "./cart.scss";
-import { useAppDispatch, useAppSelector } from "../../../app/store";
-import { switchOpened } from "../../../app/store/slices/cartSlice";
+import { useAppDispatch, useAppSelector } from "../../../app/appStore";
+import { switchOpened } from "../model/cartSlice";
 
 type Props = {};
 

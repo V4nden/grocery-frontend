@@ -1,10 +1,7 @@
-import { IItem } from "../../../app/types";
-import { useAppDispatch, useAppSelector } from "../../../app/store";
-import {
-  addCartItem,
-  removeCartItem,
-} from "../../../app/store/slices/cartSlice";
+import { useAppDispatch, useAppSelector } from "../../../app/appStore";
+import { addCartItem, removeCartItem } from "../../cart/model/cartSlice";
 import { FaMinus, FaPlus } from "react-icons/fa";
+import { IItem } from "../../../entities/item/model/types";
 
 type Props = { item: IItem };
 
