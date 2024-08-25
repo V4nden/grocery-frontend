@@ -1,8 +1,8 @@
 import { configureStore } from "@reduxjs/toolkit";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
-import cartSlice from "../widgets/cart/model/cartSlice";
-import { itemsApi } from "../entities/item/api/itemsApi";
+import cartSlice from "../entities/cart/model/cartSlice";
+import { itemsApi } from "../entities/item/api/itemApi";
 
 export const store = configureStore({
   reducer: {

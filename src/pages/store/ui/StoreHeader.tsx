@@ -1,4 +1,4 @@
-import Dropdown from "@/shared/ui/dropdown/dropdown";
+import Dropdown from "@/shared/ui/dropdown/Dropdown";
 import React from "react";
 import { useSearchParams } from "react-router-dom";
 

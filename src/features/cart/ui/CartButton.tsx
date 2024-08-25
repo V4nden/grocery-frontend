@@ -1,7 +1,7 @@
 import React from "react";
 import { FaShoppingBag } from "react-icons/fa";
 import { useAppDispatch, useAppSelector } from "../../../app/appStore";
-import { switchOpened } from "../model/cartSlice";
+import { switchOpened } from "../../../entities/cart/model/cartSlice";
 
 type Props = {};
 

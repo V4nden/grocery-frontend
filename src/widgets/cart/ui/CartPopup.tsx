@@ -1,7 +1,7 @@
 import { useAppDispatch, useAppSelector } from "../../../app/appStore";
-import Popup from "../../../shared/ui/popup/popup";
-import { switchOpened } from "../model/cartSlice";
-import Item from "../../../entities/item/ui/item";
+import Popup from "../../../shared/ui/popup/Popup";
+import { switchOpened } from "../../../entities/cart/model/cartSlice";
+import Item from "../../../entities/item/ui/Item";
 import "./cart.scss";
 
 type Props = {};

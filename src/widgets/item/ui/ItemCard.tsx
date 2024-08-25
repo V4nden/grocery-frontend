@@ -1,6 +1,6 @@
 import React from "react";
 import { useAppDispatch, useAppSelector } from "../../../app/appStore";
-import { addCartItem } from "../../cart/model/cartSlice";
+import { addCartItem } from "../../../entities/cart/model/cartSlice";
 import { FaCartPlus, FaStar } from "react-icons/fa";
 import { IItem } from "../../../entities/item/model/types";
 

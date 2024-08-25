@@ -1,8 +1,8 @@
 import { useSearchParams } from "react-router-dom";
-import Item from "../../../entities/item/ui/item";
+import Item from "../../../entities/item/ui/Item";
 import "./store.scss";
-import StoreHeader from "./storeHeader";
-import { useGetItemsQuery } from "../../../entities/item/api/itemsApi";
+import StoreHeader from "./StoreHeader";
+import { useGetItemsQuery } from "../../../entities/item/api/itemApi";
 type Props = {};
 
 const Store = (props: Props) => {

@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import BaseLayout from "./layouts/BaseLayout";
-import StorePage from "@/pages/store/ui/storePage";
-import MainPage from "@/pages/main/ui/mainPage";
+import MainPage from "@/pages/main/ui/MainPage";
+import StorePage from "@/pages/store/ui/StorePage";
 
 const appRouter = createBrowserRouter([
   {

@@ -1,5 +1,5 @@
-import CartPopup from "@/widgets/cart/ui/cartPopup";
-import NavBar from "@/widgets/navbar/navBar";
+import CartPopup from "@/widgets/cart/ui/CartPopup";
+import NavBar from "@/widgets/navbar/NavBar";
 import { Outlet } from "react-router-dom";
 
 function BaseLayout() {

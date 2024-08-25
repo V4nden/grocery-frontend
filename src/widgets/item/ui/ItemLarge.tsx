@@ -1,5 +1,8 @@
 import { useAppDispatch, useAppSelector } from "../../../app/appStore";
-import { addCartItem, removeCartItem } from "../../cart/model/cartSlice";
+import {
+  addCartItem,
+  removeCartItem,
+} from "../../../entities/cart/model/cartSlice";
 import { FaMinus, FaPlus } from "react-icons/fa";
 import { IItem } from "../../../entities/item/model/types";
 
